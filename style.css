@@ -1,3 +1,7 @@
+body {
+    background-color: blue;
+}
+
 @media only screen and (max-width: 700px) {
     #div1 {
         display: grid;
