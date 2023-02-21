@@ -1,0 +1,167 @@
+@media only screen and (max-width: 700px) {
+    #div1 {
+        display: grid;
+       
+        
+    }
+
+    #div2 {
+        grid-row: 1 / span 1;
+        display: grid;
+        
+        grid-template-rows: 15% 85%;
+    }
+
+    #div3 {
+        grid-row: 1 / span 1;
+        display: grid;
+        grid-template-rows: 50% 50%;
+        
+    }
+
+    #circle {
+        grid-row: 2 / span 1;
+        font-family: Gemunu Libre;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 150%;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: black;
+        margin-left: 25%;
+    }
+
+    #navigation {
+        grid-column: 1 / span 1;
+    }
+
+    aside {
+        margin: 5px;
+    }
+
+    li {
+        float: left;
+        display: flex;
+    }
+
+    li a {
+        display: block;
+        color: blue;
+        text-align: center;
+        text-decoration: none;
+        padding: 5%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    #div4 {
+        grid-row: 2 / span 1;
+        display: grid;
+        grid-template-rows: 20% 5% 75%;
+    }
+
+    #div5 {
+        grid-row: 1 / span 1;
+        margin-bottom: 10%;
+    }
+
+    #mainimage {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    figure {
+        display: flex;
+        position: relative;
+    }
+
+    figcaption {
+        position: absolute;
+        bottom: 25%;
+        background-color: white;
+        font-size: 150%;
+    }
+
+    #div6 {
+        grid-row: 2 / span 1;
+        display: flex;
+    }
+
+    #mailUp {
+        margin-left: 10%;
+        width: 30px;
+        height: 30px;
+    }
+    aside{
+        display: none;
+    }
+    .up {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    #div7 {
+        grid-row: 3 / span 1;
+        display: grid;
+      
+        grid-template-rows: 25% 25% 25% 25%;
+    }
+    #image1{
+        grid-row: 1 / span 1;
+        text-align: center;
+    }
+    #image2{
+        grid-row: 2 / span 1;
+        text-align: center;
+    }
+    #image3{
+        grid-row: 3 / span 1;
+        text-align: center;
+    }
+    #image4{
+        grid-row: 4 / span 1;
+        text-align: center;
+    }
+    .centerThis {
+        margin-top: 20%;
+    }
+
+    .topics {
+        width: 80%;
+        height: auto;
+    }
+
+    footer {
+        margin-top: 1%;
+    }
+
+    #footer {
+        grid-row: 2 / span 1;
+        display: block;
+    }
+
+    #twitter {
+        width: 20px;
+        height: 20px;
+        float: right;
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+
+    #facebook {
+        width: 20px;
+        height: 20px;
+        float: right;
+    }
+}
